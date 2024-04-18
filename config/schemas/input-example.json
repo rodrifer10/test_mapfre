@@ -1,0 +1,39 @@
+{
+    "handler": {
+      "version": "1",
+      "environment": "dev"
+    },
+    "features": {
+      "income": 0.0
+      ,"name_email_similarity": 0.0
+      ,"prev_address_months_count": 1
+      ,"current_address_months_count": 1
+      ,"customer_age": 1
+      ,"days_since_request": 0.0
+      ,"intended_balcon_amount": 0.0
+      ,"payment_type": "r"
+      ,"zip_count_4w": 1
+      ,"velocity_6h": 0.0
+      ,"velocity_24h": 0.0
+      ,"velocity_4w": 0.0
+      ,"bank_branch_count_8w": 1
+      ,"date_of_birth_distinct_emails_4w": 1
+      ,"employment_status": "r"
+      ,"credit_risk_score": 1
+      ,"email_is_free": 1
+      ,"housing_status": "r"
+      ,"phone_home_valid": 1
+      ,"phone_mobile_valid": 1
+      ,"bank_months_count": 1
+      ,"has_other_cards": 1
+      ,"proposed_credit_limit": 0.0
+      ,"foreign_request": 1
+      ,"source": "r"
+      ,"session_length_in_minutes": 0.0
+      ,"device_os": "r"
+      ,"keep_alive_session": 1
+      ,"device_distinct_emails_8w": 1
+      ,"device_fraud_count": 1
+      ,"month": 1
+    }
+  }

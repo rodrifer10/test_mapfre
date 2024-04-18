@@ -1,0 +1,16 @@
+{
+  "handler": {
+    "version": "1",
+    "environment": "dev"
+  },
+  "features": {
+    "database_name": 0.0,
+    "table_name": 0.0,
+    "stat_id": -1,
+    "group": 1,
+    "year": 0.0,
+    "month": 0.0,
+    "day": 0.0
+  }
+}
+

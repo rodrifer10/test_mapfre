@@ -1,0 +1,59 @@
+{
+  "handler": {
+    "type": "dict",
+    "schema": {
+      "version": {
+        "type": "string",
+        "allowed": [
+          "1"
+        ]
+      },
+      "environment": {
+        "type": "string",
+        "allowed": [
+          "pro",
+          "dev",
+          "pre"
+        ]
+      },
+      "anon": {
+        "type": "list",
+        "required": false,
+        "meta": ["database_name", "table_name"]
+      }
+    }
+  },
+  "features": {
+    "type": "dict",
+    "schema": {
+      "database_name": {
+        "type": "float",
+        "required": true
+      },
+      "table_name": {
+        "type": "float",
+        "required": true
+      },
+      "stat_id": {
+        "type": "float",
+        "required": true
+      },
+      "group": {
+        "type": "float",
+        "required": true
+      },
+      "year": {
+        "type": "float",
+        "required": true
+      },
+      "month": {
+        "type": "float",
+        "required": true
+      },
+      "day": {
+        "type": "float",
+        "required": true
+      }
+    }
+  }
+}

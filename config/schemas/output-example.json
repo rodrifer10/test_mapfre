@@ -1,0 +1,10 @@
+{
+  "handler": {
+    "version": "1",
+    "environment": "dev",
+    "status": 200
+  },
+  "predictions": [
+    "2"
+  ]
+}

@@ -1,0 +1,154 @@
+{
+  "handler": {
+    "type": "dict",
+    "schema": {
+      "version": {
+        "type": "string",
+        "allowed": [
+          "1"
+        ]
+      },
+      "environment": {
+        "type": "string",
+        "allowed": [
+          "pro",
+          "dev",
+          "pre"
+        ]
+      },
+      "anon": {
+        "type": "list",
+        "required": false,
+        "meta": ["database_name", "table_name"]
+      }
+    }
+  },
+  "features": {
+    "type": "dict",
+    "schema": {
+      "income": {
+        "type": "float",
+        "required": true
+      },
+      "name_email_similarity": {
+        "type": "float",
+        "required": true
+      },
+      "prev_address_months_count": {
+        "type": "int",
+        "required": true
+      },
+      "current_address_months_count": {
+        "type": "int",
+        "required": true
+      },
+      "customer_age": {
+        "type": "int",
+        "required": true
+      },
+      "days_since_request": {
+        "type": "float",
+        "required": true
+      },
+      "intended_balcon_amount": {"type": "float",
+      "required": true
+      },
+      "payment_type": {
+        "type": "string",
+        "required": true
+      },
+      "zip_count_4w": {
+        "type": "int",
+        "required": true
+      },
+      "velocity_6h": {
+        "type": "float",
+        "required": true
+      },
+      "velocity_24h": {
+        "type": "float",
+         "required": true
+        },
+      "velocity_4w": {
+        "type": "float",
+        "required": true
+      },
+      "bank_branch_count_8w": {
+        "type": "int",
+        "required": true
+      },
+      "date_of_birth_distinct_emails_4w": {
+        "type": "int",
+        "required": true
+      },
+      "employment_status": {
+        "type": "string",
+        "required": true
+      },
+      "credit_risk_score": {
+        "type": "int",
+        "required": true
+      },
+      "email_is_free": {
+        "type": "int",
+        "required": true
+      },
+      "housing_status": {
+        "type": "string",
+        "required": true
+      },
+      "phone_home_valid": {
+        "type": "int",
+        "required": true
+      },
+      "phone_mobile_valid": {
+        "type": "int",
+        "required": true
+      },
+      "bank_months_count": {
+        "type": "int",
+        "required": true
+      },
+      "has_other_cards": {
+        "type": "int",
+        "required": true
+      },
+      "proposed_credit_limit": {
+        "type": "float",
+        "required": true
+      },
+      "foreign_request": {
+        "type": "int",
+        "required": true
+      },
+      "source": {
+        "type": "string",
+        "required": true
+      },
+      "session_length_in_minutes": {
+        "type": "float",
+        "required": true
+      },
+      "device_os": {
+        "type": "string",
+        "required": true
+      },
+      "keep_alive_session": {
+        "type": "int",
+        "required": true
+      },
+      "device_distinct_emails_8w": {
+        "type": "int", "required": true
+      },
+      "device_fraud_count": {
+        "type": "int",
+        "required": true
+      },
+      "month": {
+        "type": "int",
+        "required": true
+      }
+    }
+  }
+}
+
